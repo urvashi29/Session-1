@@ -290,4 +290,27 @@ console.log('' + 20);//0 + 20
 // 'hjucf' or '+_)(())'
 
 
+// Comparison Operator
+var x = 9;//number
+var y = '9';//string
+
+console.log(x == y);//look for value
+console.log(x === y);//look for value and datatype (strict checking)
+console.log(x > 20);//false
+console.log(y < 20);//
+console.log(x != 9);//look for value
+console.log(x !== 9);//look for value & datatype (strict checking)
+console.log(x >= 10);//
+console.log(y <= 9);//
+
+
+// Logical Operator
+// &&, ||, !
+console.log(x == y && x === y && y <= 9);//if all are true, then it return true, otherwise false
+console.log(x == y || x === y || y <= 9);//if anyone statement is true,  it will return true
+console.log((x == y || x === y) && y <= 9);//True
+console.log(!(x == y));//reverse the condition
+
+
+
 
